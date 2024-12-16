@@ -21,18 +21,7 @@ const double pi = 3.14159265358979323846;
 
 void solve()
 {
-    int n; cin >> n;
-    vector<bool>v(1000000,false);
-    int ans = 0;
-    for(int i = 0; i < n; i++){
-        int x; cin >> x;
-        v[x] = true;
-        while(v[ans] != false){
-            ans++;
-        }
-        cout << ans << " ";
-    }
-    cout << endl;
+    
 }
 
 int32_t main()
